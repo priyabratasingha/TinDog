@@ -1,0 +1,194 @@
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1,h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p
+{
+  color: #8f8f8f;
+}
+
+/* Containter */
+
+.container-fluid
+{
+  padding: 3% 15% 8%;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title */
+
+#title
+{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title
+  {
+    text-align: center;
+  }
+
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* Features */
+
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+/* CTA Section*/
+
+#cta
+{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 8% 15% 8% 15%;
+  color: #fff;
+}
+
+.cta-heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+}
+
+/* Footer Section*/
+
+#footer
+{
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 30% 5% 30%;
+}
+
+.brand-icon
+{
+  margin: auto 2% 4% 1%;
+}
